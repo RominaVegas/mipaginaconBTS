@@ -1,0 +1,26 @@
+@import "variableGlobal";
+@import "operaciones";
+@import "fuentes";
+@import "generales";
+@import "titulos";
+@import "index";
+
+
+
+.img-fluid{
+    width: 600px;
+    height:400px ;
+    
+}
+
+.bkc{
+    background-color: #8bc5ec;
+}
+
+.parrafo{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: larger;
+
+}
