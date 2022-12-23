@@ -1,4 +1,4 @@
-$ancho:900px;
+$ancho:400px;
 $blue:rgb(106, 106, 226);
 $green:rgb(118, 116, 145); 
 
@@ -49,3 +49,19 @@ $green:rgb(118, 116, 145);
 
 
 /*mixin*/
+
+
+@mixin sizes( $width, $height){
+
+    height: $height;
+    width: $width;
+}
+
+.my_mixin{
+    @include sizes(200px,200px);
+    border: 10px solid black;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}

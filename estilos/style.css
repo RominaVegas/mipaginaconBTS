@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Oooh+Baby&family=Poppins:wght@600&family=Roboto:wght@100&family=Sedgwick+Ave&display=swap");
 .box_uno {
   background-color: rgb(106, 106, 226);
-  width: 450px;
+  width: 200px;
   height: 40px;
   text-align: center;
 }
@@ -37,6 +37,16 @@
 }
 
 /*mixin*/
+.my_mixin {
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  margin: 50px;
+}
+
 * {
   padding: 0;
   margin: 0;
